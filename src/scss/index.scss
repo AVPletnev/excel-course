@@ -6,6 +6,10 @@
 @import "formula";
 @import "table";
 @import "dashboard";
+@import "footer";
+
+
+
 
 * {
   margin: 0;
@@ -13,9 +17,18 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
+  height: 100%;
+}
+
+#app {
+  height: 100%;
 }
 
 .excel {
@@ -24,4 +37,5 @@ body {
   height: 100%;
   max-width: 100%;
   font-size: 0.8rem;
+  height: 100%;
 }

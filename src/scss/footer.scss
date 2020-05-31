@@ -1,0 +1,11 @@
+@import "variables";
+@import "mixins";
+
+.excel__footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 26px;
+  border: 1px solid $border-color;
+}
